@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030DFDCD1D18CF8E0054C831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFDCC1D18CF8E0054C831 /* main.m */; };
+		030DFDD01D18CF8E0054C831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFDCF1D18CF8E0054C831 /* AppDelegate.m */; };
+		030DFDD21D18CF8E0054C831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030DFDD11D18CF8E0054C831 /* Assets.xcassets */; };
+		030DFDD51D18CF8E0054C831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030DFDD31D18CF8E0054C831 /* LaunchScreen.storyboard */; };
+		030DFDE01D18CF8E0054C831 /* OriginalEcologicaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFDDF1D18CF8E0054C831 /* OriginalEcologicaTests.m */; };
+		030DFDEB1D18CF8E0054C831 /* OriginalEcologicaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFDEA1D18CF8E0054C831 /* OriginalEcologicaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030DFDDC1D18CF8E0054C831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030DFDC01D18CF8E0054C831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030DFDC71D18CF8E0054C831;
+			remoteInfo = OriginalEcologica;
+		};
+		030DFDE71D18CF8E0054C831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030DFDC01D18CF8E0054C831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030DFDC71D18CF8E0054C831;
+			remoteInfo = OriginalEcologica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030DFDC81D18CF8E0054C831 /* OriginalEcologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginalEcologica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFDCC1D18CF8E0054C831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		030DFDCE1D18CF8E0054C831 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		030DFDCF1D18CF8E0054C831 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		030DFDD11D18CF8E0054C831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030DFDD41D18CF8E0054C831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030DFDD61D18CF8E0054C831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030DFDDB1D18CF8E0054C831 /* OriginalEcologicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriginalEcologicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFDDF1D18CF8E0054C831 /* OriginalEcologicaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginalEcologicaTests.m; sourceTree = "<group>"; };
+		030DFDE11D18CF8E0054C831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030DFDE61D18CF8E0054C831 /* OriginalEcologicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriginalEcologicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFDEA1D18CF8E0054C831 /* OriginalEcologicaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginalEcologicaUITests.m; sourceTree = "<group>"; };
+		030DFDEC1D18CF8E0054C831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030DFDC51D18CF8E0054C831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFDD81D18CF8E0054C831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFDE31D18CF8E0054C831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030DFDBF1D18CF8E0054C831 = {
+			isa = PBXGroup;
+			children = (
+				030DFDCA1D18CF8E0054C831 /* OriginalEcologica */,
+				030DFDDE1D18CF8E0054C831 /* OriginalEcologicaTests */,
+				030DFDE91D18CF8E0054C831 /* OriginalEcologicaUITests */,
+				030DFDC91D18CF8E0054C831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030DFDC91D18CF8E0054C831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030DFDC81D18CF8E0054C831 /* OriginalEcologica.app */,
+				030DFDDB1D18CF8E0054C831 /* OriginalEcologicaTests.xctest */,
+				030DFDE61D18CF8E0054C831 /* OriginalEcologicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030DFDCA1D18CF8E0054C831 /* OriginalEcologica */ = {
+			isa = PBXGroup;
+			children = (
+				030DFDCE1D18CF8E0054C831 /* AppDelegate.h */,
+				030DFDCF1D18CF8E0054C831 /* AppDelegate.m */,
+				030DFDD11D18CF8E0054C831 /* Assets.xcassets */,
+				030DFDD31D18CF8E0054C831 /* LaunchScreen.storyboard */,
+				030DFDD61D18CF8E0054C831 /* Info.plist */,
+				030DFDCB1D18CF8E0054C831 /* Supporting Files */,
+			);
+			path = OriginalEcologica;
+			sourceTree = "<group>";
+		};
+		030DFDCB1D18CF8E0054C831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				030DFDCC1D18CF8E0054C831 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		030DFDDE1D18CF8E0054C831 /* OriginalEcologicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				030DFDDF1D18CF8E0054C831 /* OriginalEcologicaTests.m */,
+				030DFDE11D18CF8E0054C831 /* Info.plist */,
+			);
+			path = OriginalEcologicaTests;
+			sourceTree = "<group>";
+		};
+		030DFDE91D18CF8E0054C831 /* OriginalEcologicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				030DFDEA1D18CF8E0054C831 /* OriginalEcologicaUITests.m */,
+				030DFDEC1D18CF8E0054C831 /* Info.plist */,
+			);
+			path = OriginalEcologicaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030DFDC71D18CF8E0054C831 /* OriginalEcologica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFDEF1D18CF8E0054C831 /* Build configuration list for PBXNativeTarget "OriginalEcologica" */;
+			buildPhases = (
+				030DFDC41D18CF8E0054C831 /* Sources */,
+				030DFDC51D18CF8E0054C831 /* Frameworks */,
+				030DFDC61D18CF8E0054C831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OriginalEcologica;
+			productName = OriginalEcologica;
+			productReference = 030DFDC81D18CF8E0054C831 /* OriginalEcologica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030DFDDA1D18CF8E0054C831 /* OriginalEcologicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFDF21D18CF8E0054C831 /* Build configuration list for PBXNativeTarget "OriginalEcologicaTests" */;
+			buildPhases = (
+				030DFDD71D18CF8E0054C831 /* Sources */,
+				030DFDD81D18CF8E0054C831 /* Frameworks */,
+				030DFDD91D18CF8E0054C831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030DFDDD1D18CF8E0054C831 /* PBXTargetDependency */,
+			);
+			name = OriginalEcologicaTests;
+			productName = OriginalEcologicaTests;
+			productReference = 030DFDDB1D18CF8E0054C831 /* OriginalEcologicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030DFDE51D18CF8E0054C831 /* OriginalEcologicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFDF51D18CF8E0054C831 /* Build configuration list for PBXNativeTarget "OriginalEcologicaUITests" */;
+			buildPhases = (
+				030DFDE21D18CF8E0054C831 /* Sources */,
+				030DFDE31D18CF8E0054C831 /* Frameworks */,
+				030DFDE41D18CF8E0054C831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030DFDE81D18CF8E0054C831 /* PBXTargetDependency */,
+			);
+			name = OriginalEcologicaUITests;
+			productName = OriginalEcologicaUITests;
+			productReference = 030DFDE61D18CF8E0054C831 /* OriginalEcologicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030DFDC01D18CF8E0054C831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "刘峰";
+				TargetAttributes = {
+					030DFDC71D18CF8E0054C831 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					030DFDDA1D18CF8E0054C831 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 030DFDC71D18CF8E0054C831;
+					};
+					030DFDE51D18CF8E0054C831 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 030DFDC71D18CF8E0054C831;
+					};
+				};
+			};
+			buildConfigurationList = 030DFDC31D18CF8E0054C831 /* Build configuration list for PBXProject "OriginalEcologica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030DFDBF1D18CF8E0054C831;
+			productRefGroup = 030DFDC91D18CF8E0054C831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030DFDC71D18CF8E0054C831 /* OriginalEcologica */,
+				030DFDDA1D18CF8E0054C831 /* OriginalEcologicaTests */,
+				030DFDE51D18CF8E0054C831 /* OriginalEcologicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030DFDC61D18CF8E0054C831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFDD21D18CF8E0054C831 /* Assets.xcassets in Resources */,
+				030DFDD51D18CF8E0054C831 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFDD91D18CF8E0054C831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFDE41D18CF8E0054C831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030DFDC41D18CF8E0054C831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFDD01D18CF8E0054C831 /* AppDelegate.m in Sources */,
+				030DFDCD1D18CF8E0054C831 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFDD71D18CF8E0054C831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFDE01D18CF8E0054C831 /* OriginalEcologicaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFDE21D18CF8E0054C831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFDEB1D18CF8E0054C831 /* OriginalEcologicaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030DFDDD1D18CF8E0054C831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030DFDC71D18CF8E0054C831 /* OriginalEcologica */;
+			targetProxy = 030DFDDC1D18CF8E0054C831 /* PBXContainerItemProxy */;
+		};
+		030DFDE81D18CF8E0054C831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030DFDC71D18CF8E0054C831 /* OriginalEcologica */;
+			targetProxy = 030DFDE71D18CF8E0054C831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030DFDD31D18CF8E0054C831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030DFDD41D18CF8E0054C831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030DFDED1D18CF8E0054C831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030DFDEE1D18CF8E0054C831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030DFDF01D18CF8E0054C831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OriginalEcologica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.OriginalEcologica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		030DFDF11D18CF8E0054C831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OriginalEcologica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.OriginalEcologica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		030DFDF31D18CF8E0054C831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OriginalEcologicaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.OriginalEcologicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OriginalEcologica.app/OriginalEcologica";
+			};
+			name = Debug;
+		};
+		030DFDF41D18CF8E0054C831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OriginalEcologicaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.OriginalEcologicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OriginalEcologica.app/OriginalEcologica";
+			};
+			name = Release;
+		};
+		030DFDF61D18CF8E0054C831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OriginalEcologicaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.OriginalEcologicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OriginalEcologica;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		030DFDF71D18CF8E0054C831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OriginalEcologicaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.OriginalEcologicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OriginalEcologica;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030DFDC31D18CF8E0054C831 /* Build configuration list for PBXProject "OriginalEcologica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFDED1D18CF8E0054C831 /* Debug */,
+				030DFDEE1D18CF8E0054C831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030DFDEF1D18CF8E0054C831 /* Build configuration list for PBXNativeTarget "OriginalEcologica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFDF01D18CF8E0054C831 /* Debug */,
+				030DFDF11D18CF8E0054C831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030DFDF21D18CF8E0054C831 /* Build configuration list for PBXNativeTarget "OriginalEcologicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFDF31D18CF8E0054C831 /* Debug */,
+				030DFDF41D18CF8E0054C831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030DFDF51D18CF8E0054C831 /* Build configuration list for PBXNativeTarget "OriginalEcologicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFDF61D18CF8E0054C831 /* Debug */,
+				030DFDF71D18CF8E0054C831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030DFDC01D18CF8E0054C831 /* Project object */;
+}
